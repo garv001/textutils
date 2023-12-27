@@ -39,7 +39,7 @@ export default function Textform(props) {
   }
 
   const countWords  =(text)=> {
-    if(text.length==0){
+    if(text.length===0){
       return 0;
     }
     text = text.trim();
